@@ -1,3 +1,4 @@
+//console.time('app started AAAAAAAAA');
 const express = require('express')
 const cors = require('cors');
 require('./config/db');
@@ -17,3 +18,4 @@ const port = 3050;
 app.listen(port, () => {});
 
 exports.app = app;
+//console.timeEnd('app started AAAAAAAAA');
